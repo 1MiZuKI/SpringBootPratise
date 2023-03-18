@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.mizuki.boot.Boot05Web01ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in com.mizuki.boot.Boot05Web01ApplicationTests
+com.mizuki.boot.Boot05Web01ApplicationTests  Time elapsed: 0.144 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.mizuki.boot.Boot05Web01Application]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\2.Study\SpringBoot2\SpringBootPratise\code\boot-05-web-01\target\classes\com\mizuki\boot\Boot05Web01Application.class], Generic bean: class [com.mizuki.boot.MainApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\2.Study\SpringBoot2\SpringBootPratise\code\boot-05-web-01\target\classes\com\mizuki\boot\MainApplication.class]]
+

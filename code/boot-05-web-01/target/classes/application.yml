@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    static-path-pattern: /sta/** # 作用：配置静态资源路径
+    hiddenmethod:
+      filter:
+        enabled: true # 开启隐藏方法过滤器
+
